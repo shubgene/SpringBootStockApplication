@@ -29,6 +29,10 @@ POST /authenticate to authenticate user and generate a JWT.
 
 ## ScreenShot
 
+Login:Login with username :stock and password:stock
+
+![ScreenShot](https://github.com/shubgene/SpringBootStockApplication/blob/master/login.png)
+
 Show All Stocks:
 
 ![ScreenShot](https://github.com/shubgene/SpringBootStockApplication/blob/master/initialLoad.png)

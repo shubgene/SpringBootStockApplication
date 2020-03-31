@@ -1,0 +1,124 @@
+@charset "ISO-8859-1";
+
+#globalNav {
+	border-bottom: 1px solid rgba(46, 62, 72, .12);
+}
+
+#report {
+	font-size: 16px;
+	font-weight: 600;
+	'
+}
+
+.topDiv  div {
+	padding-top: 20px;
+	clear: none;
+}
+
+.trendDiv {
+	width: 99%;
+	height: 70%;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 50px;
+	overflow: auto;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 50px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+svg {
+	cursor: pointer;
+}
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 5px;
+	border: 1px solid #888;
+	width: 600px;
+	height: 400px;
+	float: none !important;
+}
+
+/* The Close Button */
+.confirmCloseBtn {
+	margin-top: 10px;
+	width: 10vw;
+	height: 40px;
+	color: white;
+	background: black;
+	border-color: black;
+	border: 2px;
+	cursor: pointer;
+}
+
+label {
+	font-weight: bold;
+	font-size: 16px;
+	margin: auto;
+	width: 110px;
+	display: inline-block;
+}
+
+.canton-boundary {
+	fill: none;
+	stroke: #fff;
+	stroke-linejoin: round;
+}
+
+text {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	text-anchor: middle;
+}
+
+input {
+	margin: 20px;
+	width: 302px;
+	height: 30px;
+}
+
+.area:hover {
+	fill: brown;
+}
+
+a {
+	color: black;
+	cursor: pointer;
+}
+
+h2 {
+	color: #c01818;
+}
+
+.historyLink {
+	margin-left: 30px;
+	background: black;
+	color: white;
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.stockLink {
+	width: 100px;
+	font-size: 24px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+li {
+	height: 40px;
+}

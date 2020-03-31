@@ -1,0 +1,97 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Payconiq Stock</title>
+<script src="js/jquery-3.1.0.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="CSS/skin.css" />
+</head>
+
+<header id="globalNav">
+	<nav aria-label="Header navigation" role="navigation"
+		style="padding: 15px;">
+		<div>
+			<div>
+				<a href="https://www.payconiq.nl/"><div>
+						<img
+							src="https://www.payconiq.nl/content/themes/Payconiq/resources/images/logo-payconiq.png"
+							alt="Payconiq logo" height="44px">
+					</div></a>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<body>
+	<div class="topDiv">
+		<div id="allStocks" class="trendDiv">
+			<h2>Stocks</h2>
+			<button id="addNewStock" onclick="addNewStock()"
+				class="confirmCloseBtn">Add Stock</button>
+				<ul id="allStocksUL">
+		</ul>
+		</div>
+		
+		<div id="stockDetailsDialog" class="modal">
+			<div class="modal-content">
+				<p id="stockPriceUpdate"></p>
+				<div style="padding: 20px;">
+					<label for="stockname"> Stock Name: </label>
+					<p id="stockname"></p>
+					<label for="stockTime"> Last updated: </label>
+					<p id="stockTime"></p>
+					<label for="stockAmount"> Stock Amount: </label> 
+					<input type="text" class="stockAmountdtl"></input>
+
+					<diV>
+						<button id="stockAmountUpdate" onclick="serviceUpdate()"
+							class="confirmCloseBtn">Update</button>
+						<button id="serviceSuccessClose" onclick="serviceSuccessClose()"
+							class="confirmCloseBtn">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="addNewDetalsDialog" class="modal">
+			<div class="modal-content">
+				<p id="created"></p>
+				<div style="padding: 20px;">
+					<label for="stocknameedit">Stock Name:</label> <input
+						id="stocknameedit" type="text"></input> 
+						<label	for="stockAmountEdit">Stock Amount:</label> 
+						<input type="text" id="stockAmountEdit"></input>
+					<diV>
+						<button id="stockAmountUpdate" onclick="createStock()"
+							class="confirmCloseBtn">Save</button>
+						<button id="serviceSuccessClose" onclick="serviceSuccessClose()"
+							class="confirmCloseBtn">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="historyDetalsDialog" class="modal">
+			<div class="modal-content">
+			<p id="created"></p>
+				<div style="padding: 20px;">
+					<table class="detailsTable">
+					<tr>
+					<th> Amount</th>
+					<th> Date</th>
+					</tr>
+					</table>
+					<diV>
+						<button id="serviceSuccessClose" onclick="serviceSuccessClose()"
+							class="confirmCloseBtn">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+
+</html>
+</html>

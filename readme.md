@@ -26,14 +26,14 @@ POST /authenticate to authenticate user and generate a JWT.
 ###ScreenShot
 Show All Stocks:
 
-![ScreenShot](https://github.com/shubgene/uploadFileWithSpringBootMySQLDocker/blob/master/screenshot1.png)
+![ScreenShot](https://github.com/shubgene/SpringBootStockApplication/blob/master/initialLoad.png)
 
 Click on Add Stock:
 
-![ScreenShot](https://github.com/shubgene/uploadFileWithSpringBootMySQLDocker/blob/master/screenshot2.png)
+![ScreenShot](https://github.com/shubgene/SpringBootStockApplication/blob/master/addStock.png)
 
 update price of a stock on clicking on stock link:
-![ScreenShot](https://github.com/shubgene/uploadFileWithSpringBootMySQLDocker/blob/master/screenshot2.png)
+![ScreenShot](https://github.com/shubgene/SpringBootStockApplication/blob/master/updatePrice.png)
 
 See Stock history on clicking show history:
-![ScreenShot](https://github.com/shubgene/uploadFileWithSpringBootMySQLDocker/blob/master/screenshot2.png)
+![ScreenShot](https://github.com/shubgene/SpringBootStockApplication/blob/master/showHistory.png)

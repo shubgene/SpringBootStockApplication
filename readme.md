@@ -2,14 +2,18 @@
 Restful java based backend application to create ,update , fetch stock data and also track stock prices.
 
 ## Features
-1)Backend and frontend implemented
+1)Backend and frontend implemented.
+
 2)Authorization with JWT.
+
 3)persisting data in h2 database
+
 4)Dockerizing the solution
+
 5)Unit test,Swagger documentation(http://localhost:8080/swagger-ui.html)
 
 ## Technology Used
-'''Java 8,Spring Boot,Junit4, Docker,Spring JPA,JWT,H2 Database'''
+Java 8,Spring Boot,Junit4, Docker,Spring JPA,JWT,H2 Database
 
 ## Running the solution
 docker build -t payconiq-stock .

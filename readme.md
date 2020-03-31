@@ -9,7 +9,7 @@ Restful java based backend application to create ,update , fetch stock data and 
 5)Unit test,Swagger documentation(http://localhost:8080/swagger-ui.html)
 
 ## Technology Used
-Java 8,Spring Boot,Junit4, Docker,Spring JPA,JWT,H2 Database
+'''Java 8,Spring Boot,Junit4, Docker,Spring JPA,JWT,H2 Database'''
 
 ## Running the solution
 docker build -t payconiq-stock .
